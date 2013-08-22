@@ -2,30 +2,41 @@
 <html>
 	<head>
 	<title> Print&Soft </title>
-	<link rel="stylesheet" type="text/css" href="css_home.css"/>
+	<link rel="stylesheet" type="text/css" href="css/css_home.css"/>
 	     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Mouse+Memoirs' rel='stylesheet' type='text/css'>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    	<script type="text/javascript" src="js/function menu.js"> </script>
+
 	</head>
 		<body>
+			
+		<div class="drop">
 			<nav class = "navegacion_top">
-				<div class = "container">
+				<div class = "container"> 
+
+					<!-- LOGO -->
 					<div class = "logotipo_nav">
 						<a href="index.html" style="text-decoration:none">
 							<p> Print&Soft Informática</p>
 						</a>
 					</div>
+					<!-- FIM LOGO -->
+
 					<div class="op_navegacion">
 						<ul class="menu">
 							<li id="menu_item_01">
-								<a href="home.html">
+								<a href="index.html">
 									HOME
 								</a>
-								<ul class="submenu">
+								<!--<ul class="submenu">
 									<li><a href="#">Submenu 1</a></li>
 									<li><a href="#">Submenu 2</a> </li>
 									<li><a href="#">Submenu 3</a></li>
-								</ul>
+								</ul>-->
 							</li>
 							<li>
 								<a href="sobre-nos.html">
@@ -48,14 +59,16 @@
 								</a>
 							</li>
 						</ul>
-					</div>
-				</div>
+					</div> 
+				</div> 
 			</nav>
+		</div>
+
 			<div id = "imag-empresa">
-				<img class="imag-logo" src="logo2.png"/>
+				<img class="imag-logo" src="imagens/logo2.png"/>
 			</div>
 			<div class = "frase">
-				<img class="tecnologia-com-qualidade" src="Slogan Gabi.png"/> 
+				<img class="tecnologia-com-qualidade" src="imagens/Slogan Gabi.png"/> 
 			</div>
 			<article class="text-home">
 				<h1> HOME </h1>
@@ -78,7 +91,4 @@
 				de suas tarefas. </p>
 			</article>
 		</body>
-
-
-
 </html>

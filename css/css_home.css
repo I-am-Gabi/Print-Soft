@@ -210,3 +210,16 @@ font-style: italic;
     display:block;
 }
  
+
+/*Media Queries*/
+@media only screen and (max-width: 800px) {
+.op_navegacion {
+max-width: 100%;
+margin: 0;
+}
+
+.nav-toggle {
+display: block;
+padding: .4em;
+margin: .5em 0;
+}
