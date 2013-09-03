@@ -148,14 +148,6 @@ font-style: italic;
 	margin-left: 150px;
 }
 
-.imag-empresa
-{
-    position:absolute;
-    top:40%;
-    margin-top:-90px;
-    margin-left: 150px;
-}
-
 .tecnologia-com-qualidade
 {
 	position:absolute;
@@ -220,7 +212,7 @@ font-style: italic;
  
 
 /*Media Queries*/
-/*@media only screen and (max-width: 800px) {*/
+@media only screen and (max-width: 800px) {
 .op_navegacion {
 max-width: 100%;
 margin: 0;
@@ -232,7 +224,6 @@ padding: .4em;
 margin: .5em 0;
 } 
 
-#wrapper {
-    width: 1290px;
-    margin: 0 auto;
+.wrapper {
+    min-width: 1300px;
 }
