@@ -152,10 +152,8 @@ font-style: italic;
 
 .imag-empresa
 {
-    position:absolute;
-    top:40%;
-    margin-top:-90px;
     margin-left: 150px;
+    margin-top: 50px;
 }
 
 .tecnologia-com-qualidade
