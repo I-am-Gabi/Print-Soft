@@ -84,6 +84,54 @@
     margin-right: 10%;
 }
 
+@media (max-width: 1200px) {
+  #emcontrucao {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  #emcontrucao {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 675px) {
+  #emcontrucao {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 665px) {
+  #emcontrucao {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #imgconst {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 495px) {
+  #emcontrucao {
+    margin-left: 10%;
+    margin-right: 10%; 
+  }
+  #imgconst {
+    height: 200px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 455px) { 
+  #imgconst {
+    display: none;
+  }
+}
+
 .const {
     text-align: center;
 }
