@@ -1,7 +1,0 @@
-HOME: Imagem inicial "Tecnologia com Qualidade"
-    Problema: não se adapta
-    Solução: Colocar a imagem para diminuir, ou sumir.
-
-SOBRE NÓS: Imagem da Print&Soft
-    Problema: não se adapta
-    Solução: colocar a imagem para diminuir, ou sumir.
